@@ -4,7 +4,7 @@ Clipboard is an extension for [Visual Studio Code](https://code.visualstudio.com
 
 Clipboard extension provides the functionality to copy the file name in the system clipboard.
 
-![copyFileNameCommand](images/copyFileNameCommand.png)
+![copyFileNameCommand](images/copyFileNameCommand2.png)
 
 ## Installation
 
