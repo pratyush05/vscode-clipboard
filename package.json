@@ -20,6 +20,8 @@
     ],
     "activationEvents": [],
     "main": "./out/extension.js",
+    "icon": "images/clipboardIcon.png",
+	"preview": false,
     "contributes": {
         "commands": [
             {
