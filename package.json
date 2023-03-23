@@ -11,17 +11,28 @@
         "name": "Pratyush Gupta",
         "email": "pratyush.gupta5594@gmail.com"
     },
+    "preview": false,
+    "private": true,
+    "homepage": "https://github.com/pratyush05/vscode-clipboard/blob/main/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/pratyush05/vscode-clipboard.git"
     },
+    "bugs": {
+        "url": "https://github.com/pratyush05/vscode-clipboard/issues"
+    },
     "categories": [
         "Other"
     ],
-    "activationEvents": [],
+    "galleryBanner": {
+        "color": "#702EA3",
+        "theme": "dark"
+    },
+    "activationEvents": [
+        "onStartupFinished"
+    ],
     "main": "./out/extension.js",
     "icon": "images/clipboardIcon.png",
-	"preview": false,
     "contributes": {
         "commands": [
             {

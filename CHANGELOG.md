@@ -2,8 +2,12 @@
 
 All notable changes to the "clipboard" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-- Initial release
+## [0.0.1] - 2023-03-23
+
+### Added
+
+- Initial release.
