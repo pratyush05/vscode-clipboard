@@ -37,11 +37,13 @@
         "commands": [
             {
                 "command": "clipboard.copyFileName",
-                "title": "Clipboard: Copy File Name"
+                "title": "Copy File Name",
+                "description": "Copy the name of the file."
             },
             {
                 "command": "clipboard.copyPackageName",
-                "title": "Clipboard: Copy Package Name"
+                "title": "Copy Package Name",
+                "description": "Copy the Go package name of the file."
             }
         ],
         "menus": {
