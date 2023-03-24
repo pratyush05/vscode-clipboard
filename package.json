@@ -36,22 +36,35 @@
     "contributes": {
         "commands": [
             {
-                "command": "clipboard.copyFilename",
+                "command": "clipboard.copyFileName",
                 "title": "Copy File Name"
+            },
+            {
+                "command": "clipboard.copyPackageName",
+                "title": "Copy Package Name"
             }
         ],
         "menus": {
             "commandPalette": [
                 {
-                    "command": "clipboard.copyFilename",
+                    "command": "clipboard.copyFileName",
                     "when": "isFileSystemResource && resourceScheme == file"
+                },
+                {
+                    "command": "clipboard.copyPackageName",
+                    "when": "isFileSystemResource && resourceScheme == file && resourceLangId == go"
                 }
             ],
             "editor/title/context": [
                 {
-                    "command": "clipboard.copyFilename",
+                    "command": "clipboard.copyFileName",
                     "when": "isFileSystemResource && resourceScheme == file",
                     "group": "1_cutcopypaste@1"
+                },
+                {
+                    "command": "clipboard.copyPackageName",
+                    "when": "isFileSystemResource && resourceScheme == file && resourceLangId == go",
+                    "group": "1_cutcopypaste@2"
                 }
             ]
         }
