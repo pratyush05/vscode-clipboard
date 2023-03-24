@@ -37,11 +37,11 @@
         "commands": [
             {
                 "command": "clipboard.copyFileName",
-                "title": "Copy File Name"
+                "title": "Clipboard: Copy File Name"
             },
             {
                 "command": "clipboard.copyPackageName",
-                "title": "Copy Package Name"
+                "title": "Clipboard: Copy Package Name"
             }
         ],
         "menus": {
