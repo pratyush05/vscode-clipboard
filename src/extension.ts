@@ -1,6 +1,6 @@
 import * as vscode from "vscode";
 import { copyFileNameCommandHandler } from "./commands/copyFileName";
-import { copyPackageNameCommandHandler } from "./commands/copyPackageName";
+import { copyGoPackageNameCommandHandler } from "./commands/copyGoPackageName";
 
 // This method is called when your extension is activated
 export function activate(context: vscode.ExtensionContext) {
@@ -9,8 +9,8 @@ export function activate(context: vscode.ExtensionContext) {
         copyFileNameCommandHandler,
     ));
 	context.subscriptions.push(vscode.commands.registerCommand(
-        "clipboard.copyPackageName", 
-        copyPackageNameCommandHandler,
+        "clipboard.copyGoPackageName", 
+        copyGoPackageNameCommandHandler,
     ));
 }
 
